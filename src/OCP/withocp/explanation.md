@@ -45,15 +45,15 @@ By following the OCP, we were able to extend the behavior of the Shape hierarchy
 
 This adherence to the OCP has several benefits:
 
-1. # Maintainability: 
+# 1. # Maintainability: 
 
 The existing code remains untouched, reducing the risk of introducing bugs or breaking functionality in the original classes.
 
-2. # Extensibility: 
+# 2. # Extensibility: 
 
 New shapes can be added without affecting the existing codebase, allowing for easy expansion of the system's behavior.
 
-3. # Scalability: 
+# 3. # Scalability: 
 
 The codebase can grow with new shapes and behaviors without requiring extensive modifications, improving the system's scalability.
 
