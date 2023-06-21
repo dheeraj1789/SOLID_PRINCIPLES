@@ -1,6 +1,6 @@
-# H1 Repository Name: SOLID Principles
+# Repository Name: SOLID Principles
 
-# H1 Overview
+# Overview
 
 This repository aims to provide a clear understanding of the SOLID principles in software development. SOLID is an acronym for five principles—
 
@@ -36,9 +36,9 @@ The Dependency Inversion Principle emphasizes that high-level modules should not
 
 # src:
 
-  This directory contains code examples demonstrating each of the SOLID principles. Inside each principle folder the source code and eplanation is available to clear the concepts.
+This directory contains code examples demonstrating each of the SOLID principles. Inside each principle folder the source code and eplanation is available to clear the concepts.
 
-#  Getting Started
+# Getting Started
 
 To explore the SOLID principles and examples in this repository, follow these steps:
 
