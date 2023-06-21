@@ -2,8 +2,8 @@ In this example, the UserManager class violates the SRP because it has multiple 
 
 # Maintenance Complexity: 
 
-    If any of these responsibilities change, it would require modifying the UserManager class, potentially impacting other unrelated parts of the code.
+If any of these responsibilities change, it would require modifying the UserManager class, potentially impacting other unrelated parts of the code.
 
 # Readability and Understandability: 
 
-     Developers reading the code might find it difficult to understand the purpose and responsibilities of the UserManager class due to its multiple functionalities.
+Developers reading the code might find it difficult to understand the purpose and responsibilities of the UserManager class due to its multiple functionalities.

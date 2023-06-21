@@ -1,4 +1,4 @@
-In this refactored code, we have separated the responsibilities into three separate classes. 
+In this refactored code, we have separated the responsibilities into three separate classes.
 
 The UserManager class now solely focuses on user management operations, the EmailService class handles email-related functionalities, and the UserReportGenerator class is responsible for generating user reports.
 
