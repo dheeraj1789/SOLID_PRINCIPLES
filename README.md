@@ -18,10 +18,8 @@ This principle states that a class should have only one reason to change. It pro
 
 | With ISP                                       | Without ISP                                        |
 | ---------------------------------------------- | -------------------------------------------------- |
-| [Code](src/SRP/withsrp/EmailService.ts)        | [code](src/SRP/withoutsrp/UserManager.ts)          |
-| -----                                          | ---                                                |
+| [Code](src/SRP/withsrp/)                       | [code](src/SRP/withoutsrp/UserManager.ts)          |
 | [Explanation](src/SRP/withsrp/explaination.md) | [Explaination](src/SRP/withoutsrp/explaination.md) |
-| ---                                            | ---                                                |
 
 ## Open-Closed Principle (OCP):
 
@@ -30,21 +28,34 @@ The Open-Closed Principle emphasizes that software entities (classes, modules, f
 | With OCP                                      | Without OCP                                 |
 | --------------------------------------------- | ------------------------------------------- |
 | [Code](src/OCP/withocp/shape.ts)              | [code](src/OCP/withoutocp/shape.ts)         |
-| -----                                         | ---                                         |
 | [Explanation](src/OCP/withocp/explanation.md) | [Explaination](src/OCP/withoutocp/shape.ts) |
-| ---                                           | ---                                         |
 
 ## Liskov Substitution Principle (LSP):
 
 The Liskov Substitution Principle focuses on the concept of substitutability. It states that objects of a superclass should be replaceable with objects of its subclasses without affecting the correctness of the program. In other words, derived classes should be able to be used in place of their base classes without introducing unexpected behavior.
 
+| With LSP                                      | Without LSP                                       |
+| --------------------------------------------- | ------------------------------------------------- |
+| [Code](src/LSP/withlsp/withlsp.ts)            | [code](src/LSP/withoutlsp/withoutlsp.ts)          |
+| [Explanation](src/LSP/withlsp/explanation.md) | [Explaination](src/LSP/withoutlsp/explanation.md) |
+
 ## Interface Segregation Principle (ISP):
 
 The Interface Segregation Principle encourages segregating interfaces into smaller, cohesive units, specific to the needs of clients. Instead of having large, monolithic interfaces, this principle suggests creating smaller, focused interfaces. Clients should not be forced to depend on interfaces they don't use.
 
+| With ISP                                      | Without ISP                                        |
+| --------------------------------------------- | -------------------------------------------------- |
+| [Code](src/ISP/withisp/withisp.ts)            | [code](src/ISP/withoutisp/withoutisp.ts)           |
+| [Explanation](src/ISP/withisp/explanation.md) | [Explaination](src/ISP/withoutisp/explaination.md) |
+
 ## Dependency Inversion Principle (DIP):
 
 The Dependency Inversion Principle emphasizes that high-level modules should not depend on low-level modules; both should depend on abstractions. It promotes decoupling and allows for flexibility and easier testing by relying on abstractions rather than concrete implementations.
+
+| With DIP                                       | Without DIP                                        |
+| ---------------------------------------------- | -------------------------------------------------- |
+| [Code](src/DIP/withdip/withdip.ts)             | [code](src/DIP/withoutdip/withoutdip.ts)           |
+| [Explanation](src/DIP/withdip/explaination.md) | [Explaination](src/DIP/withoutdip/explaination.md) |
 
 ## Repository Structure:
 
