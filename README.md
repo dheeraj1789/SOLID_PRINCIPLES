@@ -18,7 +18,7 @@ This principle states that a class should have only one reason to change. It pro
 
 | With ISP                                       | Without ISP                                        |
 | ---------------------------------------------- | -------------------------------------------------- |
-| [Code](src/SRP/withsrp/)                       | [code](src/SRP/withoutsrp/UserManager.ts)          |
+| [Code](src/SRP/withsrp/)                       | [Code](src/SRP/withoutsrp/UserManager.ts)          |
 | [Explanation](src/SRP/withsrp/explaination.md) | [Explaination](src/SRP/withoutsrp/explaination.md) |
 
 ## Open-Closed Principle (OCP):
@@ -27,7 +27,7 @@ The Open-Closed Principle emphasizes that software entities (classes, modules, f
 
 | With OCP                                      | Without OCP                                 |
 | --------------------------------------------- | ------------------------------------------- |
-| [Code](src/OCP/withocp/shape.ts)              | [code](src/OCP/withoutocp/shape.ts)         |
+| [Code](src/OCP/withocp/shape.ts)              | [Code](src/OCP/withoutocp/shape.ts)         |
 | [Explanation](src/OCP/withocp/explanation.md) | [Explaination](src/OCP/withoutocp/shape.ts) |
 
 ## Liskov Substitution Principle (LSP):
@@ -36,7 +36,7 @@ The Liskov Substitution Principle focuses on the concept of substitutability. It
 
 | With LSP                                      | Without LSP                                       |
 | --------------------------------------------- | ------------------------------------------------- |
-| [Code](src/LSP/withlsp/withlsp.ts)            | [code](src/LSP/withoutlsp/withoutlsp.ts)          |
+| [Code](src/LSP/withlsp/withlsp.ts)            | [Code](src/LSP/withoutlsp/withoutlsp.ts)          |
 | [Explanation](src/LSP/withlsp/explanation.md) | [Explaination](src/LSP/withoutlsp/explanation.md) |
 
 ## Interface Segregation Principle (ISP):
@@ -45,7 +45,7 @@ The Interface Segregation Principle encourages segregating interfaces into small
 
 | With ISP                                      | Without ISP                                        |
 | --------------------------------------------- | -------------------------------------------------- |
-| [Code](src/ISP/withisp/withisp.ts)            | [code](src/ISP/withoutisp/withoutisp.ts)           |
+| [Code](src/ISP/withisp/withisp.ts)            | [Code](src/ISP/withoutisp/withoutisp.ts)           |
 | [Explanation](src/ISP/withisp/explanation.md) | [Explaination](src/ISP/withoutisp/explaination.md) |
 
 ## Dependency Inversion Principle (DIP):
@@ -54,7 +54,7 @@ The Dependency Inversion Principle emphasizes that high-level modules should not
 
 | With DIP                                       | Without DIP                                        |
 | ---------------------------------------------- | -------------------------------------------------- |
-| [Code](src/DIP/withdip/withdip.ts)             | [code](src/DIP/withoutdip/withoutdip.ts)           |
+| [Code](src/DIP/withdip/withdip.ts)             | [Code](src/DIP/withoutdip/withoutdip.ts)           |
 | [Explanation](src/DIP/withdip/explaination.md) | [Explaination](src/DIP/withoutdip/explaination.md) |
 
 ## Repository Structure:
@@ -67,8 +67,12 @@ This directory contains code examples demonstrating each of the SOLID principles
 
 To explore the SOLID principles and examples in this repository, follow these steps:
 
-Clone the repository: git clonehttps://github.com/dheeraj1789/SOLID_PRINCIPLES.git
-Navigate to the cloned directory: cd SOLID_PRINCIPLES
+Clone the repository: ``` git clone https://github.com/dheeraj1789/SOLID_PRINCIPLES.git ```
+
+Navigate to the cloned directory: 
+
+``` cd SOLID_PRINCIPLES ```
+
 Explore the src directory to find examples for each SOLID principle.
 Refer to the documentation in the docs directory for more in-depth explanations and additional resources.
 
